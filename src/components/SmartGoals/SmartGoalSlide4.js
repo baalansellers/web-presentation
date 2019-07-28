@@ -16,7 +16,7 @@ function SmartGoalSlide4(props) {
           <Grid.Column floated="left" width={8}>
             <List
               className="list-pres-two-column"
-              style={{ marginLeft: "15%" }}
+              style={{ marginLeft: "10vh" }}
               bulleted
             >
               <List.Item className="list-item-pres list-item-dot-pres">

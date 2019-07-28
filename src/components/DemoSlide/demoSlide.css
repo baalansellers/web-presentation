@@ -1,13 +1,13 @@
 .title-demo {
-  height: 10vh;
+  height: calc(1em + 5vh);
   background-color: rgb(227, 244, 253, 0.33);
   color: #1d3756;
-  font-size: 5em;
+  font-size: calc(1em + 5vh);
   font-weight: bold;
-  line-height: 10vh;
-  padding-left: 10%;
+  line-height: calc(1em + 5vh);
+  padding-left: 10vw;
 }
 
 .embed-iframe {
-  height: 90vh !important;
+  height: calc(1em + 95vh) !important;
 }

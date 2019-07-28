@@ -52,28 +52,28 @@ path.Revio-logo-swoosh {
 }
 
 .title-pres {
-  height: 33vh;
+  height: calc(2em + 5vh);
   background-color: rgb(227, 244, 253, 0.33);
   color: #1d3756;
-  font-size: 5em;
+  font-size: calc(1em + 6vh);
   font-weight: bold;
-  line-height: 33vh;
+  line-height: calc(2em + 5vh);
   padding-left: 10%;
 }
 
 .list-pres {
   color: #626366;
-  font-size: 3em !important;
+  font-size: calc(0.3em + 4.2vh) !important;
   font-weight: bold !important;
-  padding-left: 10% !important;
-  margin-top: 5% !important;
+  padding-left: 10vw !important;
+  margin-top: 5vh !important;
 }
 
 .list-pres-two-column {
   color: #626366;
-  font-size: 2.8em !important;
+  font-size: calc(0.002em + 4vh) !important;
   font-weight: bold !important;
-  padding-left: 10% !important;
+  /* padding-left: 10vw !important; */
 }
 
 .list-item-dot-pres:before {
@@ -82,22 +82,22 @@ path.Revio-logo-swoosh {
 
 .text-area-pres {
   color: #626366;
-  font-size: 3em !important;
+  font-size: calc(0.2em + 5.5vh) !important;
   font-weight: bold !important;
-  padding-left: 10% !important;
-  margin-top: 5% !important;
+  padding-left: 10vw !important;
+  margin-top: 5vh !important;
   line-height: 1.3em !important;
-  width: 80%;
+  width: 80vw;
 }
 
 .keyword-pres {
   color: #626366;
-  font-size: 5em !important;
+  font-size: calc(1em + 7vh) !important;
   font-weight: bold !important;
-  padding-left: 10% !important;
-  margin-top: 5% !important;
+  padding-left: 10vw !important;
+  margin-top: 20vh !important;
   line-height: 1.3em !important;
-  width: 80%;
+  width: 80vw;
 }
 
 .highlight-pres {
