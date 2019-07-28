@@ -13,7 +13,9 @@ function LoadingSlide(props) {
             data={logo}
             type="image/svg+xml"
             className="Revio-logo-rotate"
-          >Rev.io Glyph</object>
+          >
+            Rev.io Glyph
+          </object>
           <p>Loading...</p>
         </header>
       </div>

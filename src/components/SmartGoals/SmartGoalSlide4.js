@@ -1,23 +1,19 @@
 import React from "react";
 import { Slide } from "pure-react-carousel";
 import { List, Grid } from "semantic-ui-react";
+import FlippyGlyph from "../FlippyGlyph/FlippyGlyph";
 
 function SmartGoalSlide4(props) {
   return (
     <Slide index={props.index}>
       <div className="purpose-bg">
         <div className="title-pres">SMART GOALS</div>
-        <List className="list-pres" bulleted>
-          <List.Item className="list-item-pres list-item-dot-pres">
-            Implement an Alpha version of the CPP SPA
-          </List.Item>
-        </List>
+        <p className="p-pres">Implement an Alpha version of the CPP SPA</p>
         <Grid>
           <Grid.Column floated="left" width={8}>
             <List
               className="list-pres-two-column"
               style={{ marginLeft: "10vh" }}
-              bulleted
             >
               <List.Item className="list-item-pres list-item-dot-pres">
                 <List.Icon name="check square outline" />
@@ -50,7 +46,7 @@ function SmartGoalSlide4(props) {
             </List>
           </Grid.Column>
           <Grid.Column floated="right" width={8}>
-            <List className="list-pres-two-column" bulleted>
+            <List className="list-pres-two-column">
               <List.Item className="list-item-pres list-item-dot-pres">
                 <List.Icon name="check square outline" />
                 <List.Content>(16) Transactions Component</List.Content>
@@ -84,6 +80,7 @@ function SmartGoalSlide4(props) {
             </List>
           </Grid.Column>
         </Grid>
+        <FlippyGlyph />
       </div>
     </Slide>
   );

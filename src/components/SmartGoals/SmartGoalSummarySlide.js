@@ -1,6 +1,7 @@
 import React from "react";
 import { Slide } from "pure-react-carousel";
 import { List } from "semantic-ui-react";
+import FlippyGlyph from "../FlippyGlyph/FlippyGlyph";
 
 function SmartGoalSummarySlide(props) {
   return (
@@ -21,6 +22,7 @@ function SmartGoalSummarySlide(props) {
             Completed Goals: 26
           </List.Item>
         </List>
+        <FlippyGlyph />
       </div>
     </Slide>
   );

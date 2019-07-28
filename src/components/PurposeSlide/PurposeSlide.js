@@ -1,6 +1,7 @@
 import React from "react";
 import { Slide } from "pure-react-carousel";
 import "./purposeSlide.css";
+import FlippyGlyph from "../FlippyGlyph/FlippyGlyph";
 
 function PurposeSlide(props) {
   return (
@@ -13,6 +14,7 @@ function PurposeSlide(props) {
           office features. This quarter focused on developing a prototype that
           lays the groundwork for a fully featured portal for customers.
         </div>
+        <FlippyGlyph />
       </div>
     </Slide>
   );

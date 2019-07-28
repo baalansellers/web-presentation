@@ -13,7 +13,11 @@ import SmartGoalSlide4 from "../SmartGoals/SmartGoalSlide4";
 import SmartGoalSlide5 from "../SmartGoals/SmartGoalSlide5";
 import SmartGoalSlide6 from "../SmartGoals/SmartGoalSlide6";
 import SmartGoalSummarySlide from "../SmartGoals/SmartGoalSummarySlide";
-import DemoSlide from "../DemoSlide/DemoSlide";
+import DemoCPPSlide from "../DemoSlide/DemoCPPSlide";
+import DemoStorybookSlide from "../DemoSlide/DemoStorybookSlide";
+import KnownRisksSlide from "../KnownRisksSlide/KnownRisksSlide";
+import LessonsSlide from "../LessonsSlide/LessonsSlide";
+import WowSlide from "../WowSlide/WowSlide";
 
 function useKeyboardEvent(key, callback) {
   useEffect(() => {
@@ -52,17 +56,21 @@ function Presentation(props) {
     <Slider style={{ width: "100vw", height: "100vh" }}>
       <LoadingSlide index={0} />
       <TitleSlide index={1} />
-      <IntroSlide index={2} />
-      <PurposeSlide index={3} />
-      <KeywordSlide index={4} />
-      <SmartGoalSlide1 index={5} />
-      <SmartGoalSlide2 index={6} />
-      <SmartGoalSlide3 index={7} />
-      <SmartGoalSlide4 index={8} />
-      <SmartGoalSlide5 index={9} />
-      <SmartGoalSlide6 index={10} />
-      <SmartGoalSummarySlide index={11} />
-      <DemoSlide index={12} />
+      <WowSlide index={2} />
+      <IntroSlide index={3} />
+      <PurposeSlide index={4} />
+      <KeywordSlide index={5} />
+      <SmartGoalSlide1 index={6} />
+      <SmartGoalSlide2 index={7} />
+      <SmartGoalSlide3 index={8} />
+      <SmartGoalSlide4 index={9} />
+      <SmartGoalSlide5 index={10} />
+      <SmartGoalSlide6 index={11} />
+      <SmartGoalSummarySlide index={12} />
+      <DemoStorybookSlide index={13} />
+      <DemoCPPSlide index={14} />
+      <KnownRisksSlide index={15} />
+      <LessonsSlide index={16} />
     </Slider>
   );
 }

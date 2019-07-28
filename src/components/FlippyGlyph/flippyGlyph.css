@@ -1,0 +1,20 @@
+.Revio-logo-flippy {
+  animation: Revio-logo-flippy infinite 5s linear;
+  height: 5vmin;
+  pointer-events: none;
+  position: fixed;
+  top: 91.6vh;
+  margin-left: 1.4vw;
+}
+
+@keyframes Revio-logo-flippy {
+  from {
+    transform: rotate3d(0, 1, 0, 0deg);
+  }
+  60% {
+    transform: rotate3d(0, 1, 0, 0deg);
+  }
+  to {
+    transform: rotate3d(0, 1, 0, 360deg);
+  }
+}

@@ -1,5 +1,6 @@
 import React from "react";
 import { Slide } from "pure-react-carousel";
+import FlippyGlyph from "../FlippyGlyph/FlippyGlyph";
 
 function KeywordSlide(props) {
   return (
@@ -9,6 +10,7 @@ function KeywordSlide(props) {
         <div className="keyword-pres">
           Key Word: <span className="highlight-pres">Prototype</span>
         </div>
+        <FlippyGlyph />
       </div>
     </Slide>
   );

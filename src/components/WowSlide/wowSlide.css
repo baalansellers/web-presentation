@@ -1,0 +1,8 @@
+.wow-bg {
+  background-image: url("./MeerkatCousins.jpg");
+  background-color: #a77c38;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: auto 100%;
+  min-height: 100vh;
+}

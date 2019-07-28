@@ -2,6 +2,7 @@ import React from "react";
 import "./introSlide.css";
 import { Slide } from "pure-react-carousel";
 import { List } from "semantic-ui-react";
+import FlippyGlyph from "../FlippyGlyph/FlippyGlyph";
 
 function IntroSlide(props) {
   return (
@@ -19,6 +20,7 @@ function IntroSlide(props) {
           </List.Item>
           <List.Item className="list-item-pres list-item-dot-pres">Lessons Learned</List.Item>
         </List>
+        <FlippyGlyph />
       </div>
     </Slide>
   );

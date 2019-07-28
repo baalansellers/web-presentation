@@ -8,7 +8,7 @@ function App() {
     <CarouselProvider
       naturalSlideWidth={100}
       naturalSlideHeight={100}
-      totalSlides={13}
+      totalSlides={17}
       style={{ width: "100vw", height: "100vh" }}
     >
       <Presentation />

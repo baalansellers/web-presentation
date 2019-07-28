@@ -7,6 +7,7 @@ import dan from "./Dan-Red.png";
 import alan from "./Alan-Orange.png";
 import { Slide } from "pure-react-carousel";
 import { Card, Image } from "semantic-ui-react";
+import FlippyGlyph from "../FlippyGlyph/FlippyGlyph";
 
 function TitleSlide(props) {
   return (
@@ -56,6 +57,7 @@ function TitleSlide(props) {
             </Card.Content>
           </Card>
         </Card.Group>
+        <FlippyGlyph />
       </div>
     </Slide>
   );
