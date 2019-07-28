@@ -8,37 +8,43 @@
 }
 
 .title-logo {
-  height: 1.26in;
-  margin-left: 10%;
-  margin-top: 10%;
-  margin-bottom: 3em;
+  height: 7vw;
+  margin-left: 10vw;
+  margin-top: 10vh;
+  margin-bottom: 4vh;
 }
 
 .title {
   margin-left: 10%;
   margin-bottom: 0;
   color: #1d3756;
-  font-size: 4em;
+  font-size: calc(0.4em + 3vw);
   font-weight: bold;
 }
 
 .date {
-  margin-left: 10%;
+  margin-left: 10vw;
   margin-bottom: 0;
   color: #6ebe4f;
-  font-size: 3em;
+  font-size: calc(0.3em + 2.3vw);
   font-weight: bold;
 }
 
 .power-ranger-group {
-  margin-left: 10% !important;
-  margin-top: 5em !important;
+  margin-left: 10vw !important;
+  margin-top: 6vh !important;
 }
 
 .power-ranger-card {
-  width: 11em !important;
+  width: calc(1.5em + 13vh) !important;
+}
+
+.power-ranger-text {
+  font-size: calc(0.3em + 2.5vh) !important;
+  font-weight: bold !important;
+  color: #1d3756 !important;
 }
 
 .power-ranger {
-  width: 11em;
+  width: calc(1.5em + 13vh) !important;
 }

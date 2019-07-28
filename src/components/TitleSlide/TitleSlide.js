@@ -26,25 +26,33 @@ function TitleSlide(props) {
               size="tiny"
             />
             <Card.Content>
-              <Card.Header textAlign="center">Alan</Card.Header>
+              <Card.Header textAlign="center" className="power-ranger-text">
+                Alan
+              </Card.Header>
             </Card.Content>
           </Card>
           <Card className="power-ranger-card">
             <Image className="power-ranger" src={dennis} wrapped ui={false} />
             <Card.Content>
-              <Card.Header textAlign="center">Dennis</Card.Header>
+              <Card.Header textAlign="center" className="power-ranger-text">
+                Dennis
+              </Card.Header>
             </Card.Content>
           </Card>
           <Card className="power-ranger-card">
             <Image className="power-ranger" src={dan} wrapped ui={false} />
             <Card.Content>
-              <Card.Header textAlign="center">Dan</Card.Header>
+              <Card.Header textAlign="center" className="power-ranger-text">
+                Dan
+              </Card.Header>
             </Card.Content>
           </Card>
           <Card className="power-ranger-card">
             <Image className="power-ranger" src={jordan} wrapped ui={false} />
             <Card.Content>
-              <Card.Header textAlign="center">Jordan</Card.Header>
+              <Card.Header textAlign="center" className="power-ranger-text">
+                Jordan
+              </Card.Header>
             </Card.Content>
           </Card>
         </Card.Group>
