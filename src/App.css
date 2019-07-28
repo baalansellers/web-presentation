@@ -1,0 +1,109 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-header p {
+  margin-top: 0.8em !important;
+  font-size: 3em !important;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Revio-logo-dot {
+  fill: #213453;
+  fill-opacity: 1;
+  fill-rule: nonzero;
+  stroke: none;
+}
+
+path.Revio-logo-swoosh {
+  fill: #65c53f;
+  fill-opacity: 1;
+  fill-rule: nonzero;
+  stroke: none;
+}
+
+.title-pres {
+  height: 33vh;
+  background-color: rgb(227, 244, 253, 0.33);
+  color: #1d3756;
+  font-size: 5em;
+  font-weight: bold;
+  line-height: 33vh;
+  padding-left: 10%;
+}
+
+.list-pres {
+  color: #626366;
+  font-size: 3em !important;
+  font-weight: bold !important;
+  padding-left: 10% !important;
+  margin-top: 5% !important;
+}
+
+.list-pres-two-column {
+  color: #626366;
+  font-size: 2.8em !important;
+  font-weight: bold !important;
+  padding-left: 10% !important;
+}
+
+.list-item-dot-pres:before {
+  margin-left: -2.5rem !important;
+}
+
+.text-area-pres {
+  color: #626366;
+  font-size: 3em !important;
+  font-weight: bold !important;
+  padding-left: 10% !important;
+  margin-top: 5% !important;
+  line-height: 1.3em !important;
+  width: 80%;
+}
+
+.keyword-pres {
+  color: #626366;
+  font-size: 5em !important;
+  font-weight: bold !important;
+  padding-left: 10% !important;
+  margin-top: 5% !important;
+  line-height: 1.3em !important;
+  width: 80%;
+}
+
+.highlight-pres {
+  color: #6EBE4F;
+}
+
+.strikethrough {
+  text-decoration-line: line-through;
+}

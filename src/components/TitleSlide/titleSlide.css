@@ -1,0 +1,44 @@
+.title-bg {
+  background-image: url("./Title-Right-Side.png");
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-position: right center;
+  background-size: auto 100%;
+  min-height: 100vh;
+}
+
+.title-logo {
+  height: 1.26in;
+  margin-left: 10%;
+  margin-top: 10%;
+  margin-bottom: 3em;
+}
+
+.title {
+  margin-left: 10%;
+  margin-bottom: 0;
+  color: #1d3756;
+  font-size: 4em;
+  font-weight: bold;
+}
+
+.date {
+  margin-left: 10%;
+  margin-bottom: 0;
+  color: #6ebe4f;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.power-ranger-group {
+  margin-left: 10% !important;
+  margin-top: 5em !important;
+}
+
+.power-ranger-card {
+  width: 11em !important;
+}
+
+.power-ranger {
+  width: 11em;
+}
