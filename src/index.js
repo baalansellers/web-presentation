@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import 'semantic-ui-css/semantic.min.css'
 import 'pure-react-carousel/dist/react-carousel.es.css';
-import App from './App';
 import * as serviceWorker from './serviceWorker';
+import App from './components/App/App';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 

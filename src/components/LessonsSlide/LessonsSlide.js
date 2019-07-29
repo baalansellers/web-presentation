@@ -16,7 +16,7 @@ function LessonsSlide(props) {
             Current REST API strategy could use some work
           </List.Item>
           <List.Item className="list-item-pres list-item-dot-pres">
-            TBD
+            API should normally re
           </List.Item>
           <List.Item className="list-item-pres list-item-dot-pres">
             TBD

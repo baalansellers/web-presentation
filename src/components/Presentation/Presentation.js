@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import "../../App.css";
+import "../App/App.css";
 import { Slider, WithStore } from "pure-react-carousel";
 import TitleSlide from "../TitleSlide/TitleSlide";
 import IntroSlide from "../IntroSlide/IntroSlide";
@@ -18,6 +18,10 @@ import DemoStorybookSlide from "../DemoSlide/DemoStorybookSlide";
 import KnownRisksSlide from "../KnownRisksSlide/KnownRisksSlide";
 import LessonsSlide from "../LessonsSlide/LessonsSlide";
 import WowSlide from "../WowSlide/WowSlide";
+import FunSlide from "../FunSlide/FunSlide";
+import FeedbackSlide from "../FeedbackSlide/FeedbackSlide";
+import NamingConventionSlide from "../CodeSlides/NamingConventionSlide";
+import ActionReducerSlide from "../CodeSlides/ActionReducerSlide";
 
 function useKeyboardEvent(key, callback) {
   useEffect(() => {
@@ -54,8 +58,8 @@ function Presentation(props) {
 
   return (
     <Slider style={{ width: "100vw", height: "100vh" }}>
-      <LoadingSlide index={0} />
-      <TitleSlide index={1} />
+      <TitleSlide index={0} />
+      <LoadingSlide index={1} />
       <WowSlide index={2} />
       <IntroSlide index={3} />
       <PurposeSlide index={4} />
@@ -69,8 +73,12 @@ function Presentation(props) {
       <SmartGoalSummarySlide index={12} />
       <DemoStorybookSlide index={13} />
       <DemoCPPSlide index={14} />
-      <KnownRisksSlide index={15} />
-      <LessonsSlide index={16} />
+      <NamingConventionSlide index={15} />
+      <ActionReducerSlide index={16} />
+      <FunSlide index={17} />
+      <KnownRisksSlide index={18} />
+      <LessonsSlide index={19} />
+      <FeedbackSlide index={20} />
     </Slider>
   );
 }

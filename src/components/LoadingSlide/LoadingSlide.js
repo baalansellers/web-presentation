@@ -1,6 +1,5 @@
 import React from "react";
-import logo from "./Rev.io_Glyph_white.svg";
-import "../../App.css";
+import logo from "./React-Revio.svg";
 import "./loadingSlide.css";
 import { Slide } from "pure-react-carousel";
 
@@ -16,7 +15,7 @@ function LoadingSlide(props) {
           >
             Rev.io Glyph
           </object>
-          <p>Loading...</p>
+          <p>React-ive Rev.io</p>
         </header>
       </div>
     </Slide>

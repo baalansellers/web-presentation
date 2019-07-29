@@ -10,7 +10,7 @@ function DemoStorybookSlide(props) {
         <div className="title-demo">DEMO - STORYBOOK</div>
 
         <Embed
-          url="http://localhost:53442/"
+          url="http://localhost:54900/"
           iframe={{ scrolling: "yes", class: "embed-iframe" }}
         />
       </div>
