@@ -46,7 +46,7 @@ function DemoCPPSlide(props) {
 
         <Embed
           active={isActive}
-          url="http://192.168.1.192:3000/"
+          url="http://10.50.1.14:3000/"
           iframe={{ scrolling: "yes", class: "embed-iframe" }}
           onClick={handleStopClick}
         />

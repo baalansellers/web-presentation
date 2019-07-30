@@ -16,6 +16,7 @@ function LoadingSlide(props) {
             Rev.io Glyph
           </object>
           <p>React-ive Rev.io</p>
+          Hosted at: http://10.50.1.14
         </header>
       </div>
     </Slide>

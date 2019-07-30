@@ -4,7 +4,7 @@
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+  height: 32vmin;
   pointer-events: none;
 }
 
@@ -15,13 +15,13 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(2em + 2vh);
   color: white;
 }
 
 .App-header p {
-  margin-top: 0.8em !important;
-  font-size: 3em !important;
+  margin-top: 1vh !important;
+  font-size: calc(2em + 0.5vh) !important;
 }
 
 .App-link {
@@ -123,7 +123,7 @@ p.pres {
 }
 
 .highlight-pres {
-  color: #6EBE4F;
+  color: #6ebe4f;
 }
 
 .strikethrough {
