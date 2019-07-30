@@ -16,13 +16,13 @@ function LessonsSlide(props) {
             Current REST API strategy could use some work
           </List.Item>
           <List.Item className="list-item-pres list-item-dot-pres">
-            API should normally re
+            API should not return file data within the model (usually)
           </List.Item>
           <List.Item className="list-item-pres list-item-dot-pres">
-            TBD
+            If you Eject, keep an eye on config files as vendor packages update
           </List.Item>
           <List.Item className="list-item-pres list-item-dot-pres">
-            TBD
+            Semantic UI React is sooo much fun!
           </List.Item>
         </List>
         <FlippyGlyph />

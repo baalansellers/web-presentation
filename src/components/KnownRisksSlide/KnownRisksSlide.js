@@ -19,7 +19,7 @@ function KnownRisksSlide(props) {
             Read-only integration with our REST API
           </List.Item>
           <List.Item className="list-item-pres list-item-dot-pres">
-            REST API still needs several more endpoints
+            REST API still needs many more endpoints
           </List.Item>
           <List.Item className="list-item-pres list-item-dot-pres">
             Mobile usability could use more testing and tweaking

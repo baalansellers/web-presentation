@@ -8,8 +8,8 @@ function FeedbackSlide(props) {
     <Slide index={props.index}>
       <div className="App">
         <header className="App-header">
+          <p>Feedback? | Questions?</p>
           <Image src={haters} size="large" centered />
-          <p>Feedback?</p>
         </header>
       </div>
     </Slide>

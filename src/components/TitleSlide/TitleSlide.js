@@ -15,7 +15,7 @@ function TitleSlide(props) {
       <div className="title-bg">
         <img className="title-logo" src={logo} alt="Rev.io Logo" />
         <p className="title">Platform Team Quarterly Project Review</p>
-        <p className="title">Q3 Team Presentation</p>
+        <p className="title">Q2 Team Presentation</p>
         <p className="date">Tuesday, July 30th, 2019</p>
         <Card.Group className="power-ranger-group">
           <Card className="power-ranger-card">

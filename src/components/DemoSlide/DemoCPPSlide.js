@@ -1,17 +1,54 @@
-import React from "react";
+import React, { useState } from "react";
 import { Slide } from "pure-react-carousel";
-import { Embed } from "semantic-ui-react";
+import { Embed, Button, Icon, Grid } from "semantic-ui-react";
 import "./demoSlide.css";
 
 function DemoCPPSlide(props) {
+  const [isActive, setIsActive] = useState(false);
+  const handleStopClick = () => {
+    setIsActive(!isActive);
+  };
+
   return (
     <Slide index={props.index}>
       <div className="demo-bg">
-        <div className="title-demo">DEMO - CPP ALPHA</div>
+        <div className="title-demo">
+          <Grid columns={2} divided="vertically">
+            <Grid.Row style={{ height: "calc(1em + 5vh)", paddingBottom: "0" }}>
+              <Grid.Column
+                width={12}
+                verticalAlign="middle"
+                style={{ marginBottom: "0" }}
+              >
+                DEMO - CPP ALPHA
+              </Grid.Column>
+              <Grid.Column
+                width={3}
+                verticalAlign="middle"
+                textAlign="right"
+                style={{ marginBottom: "0" }}
+              >
+                <Button
+                  onClick={handleStopClick}
+                  icon
+                  labelPosition="left"
+                  // floated="right"
+                  color="red"
+                  disabled={!isActive}
+                >
+                  <Icon name="square" />
+                  Stop
+                </Button>
+              </Grid.Column>
+            </Grid.Row>
+          </Grid>
+        </div>
 
         <Embed
+          active={isActive}
           url="http://localhost:3000/"
           iframe={{ scrolling: "yes", class: "embed-iframe" }}
+          onClick={handleStopClick}
         />
       </div>
     </Slide>

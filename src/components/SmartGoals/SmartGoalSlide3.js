@@ -9,31 +9,26 @@ function SmartGoalSlide3(props) {
       <div className="purpose-bg">
         <div className="title-pres">SMART GOALS</div>
         <List className="list-pres">
-          <List.Item className="list-item-pres list-item-dot-pres">
-            Implement an Alpha version of the CPP SPA
+          <List.Item className="list-item-dot-pres">
+            It will framework the following page components:
             <List>
               <List.Item className="list-item-dot-pres">
-                It will framework the following page components:
-                <List>
-                  <List.Item className="list-item-dot-pres">
-                    <List.Icon name="check square outline" />
-                    <List.Content>(5) Home/Dashboard</List.Content>
-                  </List.Item>
-                  <List.Item className="list-item-dot-pres">
-                    <List.Icon name="check square outline" />
-                    <List.Content>(6) Recent Customers</List.Content>
-                  </List.Item>
-                  <List.Item className="list-item-dot-pres">
-                    <List.Icon name="check square outline" />
-                    <List.Content>
-                      (7) Profile Editor (name, username, email, password)
-                    </List.Content>
-                  </List.Item>
-                  <List.Item className="list-item-dot-pres">
-                    <List.Icon name="check square outline" />
-                    <List.Content>(8) Search Results</List.Content>
-                  </List.Item>
-                </List>
+                <List.Icon name="check square outline" />
+                <List.Content>(5) Home/Dashboard</List.Content>
+              </List.Item>
+              <List.Item className="list-item-dot-pres">
+                <List.Icon name="check square outline" />
+                <List.Content>(6) Recent Customers</List.Content>
+              </List.Item>
+              <List.Item className="list-item-dot-pres">
+                <List.Icon name="check square outline" />
+                <List.Content>
+                  (7) Profile Editor (name, username, email, password)
+                </List.Content>
+              </List.Item>
+              <List.Item className="list-item-dot-pres">
+                <List.Icon name="check square outline" />
+                <List.Content>(8) Search Results</List.Content>
               </List.Item>
             </List>
           </List.Item>

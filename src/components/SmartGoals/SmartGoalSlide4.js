@@ -8,7 +8,7 @@ function SmartGoalSlide4(props) {
     <Slide index={props.index}>
       <div className="purpose-bg">
         <div className="title-pres">SMART GOALS</div>
-        <p className="p-pres">Implement an Alpha version of the CPP SPA</p>
+        <p className="p-pres">Customer Details consisting of:</p>
         <Grid>
           <Grid.Column floated="left" width={8}>
             <List

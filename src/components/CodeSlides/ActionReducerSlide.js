@@ -22,13 +22,25 @@ function ActionReducerSlide(props) {
                 1. View transmits Action to Dispatcher
               </List.Item>
               <List.Item>
-                2. Dispatcher fetches from API
+                3. Dispatcher fetches from API
               </List.Item>
               <List.Item>
-                3. Reducer transforms JSON to Model
+                4. Dispatcher tells Reducer it's waiting
               </List.Item>
               <List.Item>
-                4. View uses Model for display
+                5. Reducer updates State, which updates the View
+              </List.Item>
+              <List.Item>
+                6. Dispatcher tells Reducer it has data
+              </List.Item>
+              <List.Item>
+                7. Reducer transforms data (JSON) into Model
+              </List.Item>
+              <List.Item>
+                8. Reducer puts Model in state for View
+              </List.Item>
+              <List.Item>
+                9. View uses Model for display
               </List.Item>
             </List>
           </Grid.Column>
