@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/web-presentation/static/css/main.8ad18a55.chunk.css",
+    "main.js": "/web-presentation/static/js/main.fb809cee.chunk.js",
+    "main.js.map": "/web-presentation/static/js/main.fb809cee.chunk.js.map",
+    "runtime~main.js": "/web-presentation/static/js/runtime~main.1e9a5093.js",
+    "runtime~main.js.map": "/web-presentation/static/js/runtime~main.1e9a5093.js.map",
+    "static/css/2.755ea029.chunk.css": "/web-presentation/static/css/2.755ea029.chunk.css",
+    "static/js/2.4c1eb2dc.chunk.js": "/web-presentation/static/js/2.4c1eb2dc.chunk.js",
+    "static/js/2.4c1eb2dc.chunk.js.map": "/web-presentation/static/js/2.4c1eb2dc.chunk.js.map",
+    "index.html": "/web-presentation/index.html",
+    "precache-manifest.f2150f98ad4eea203c8d81ddf1ac7d0b.js": "/web-presentation/precache-manifest.f2150f98ad4eea203c8d81ddf1ac7d0b.js",
+    "service-worker.js": "/web-presentation/service-worker.js",
+    "static/css/2.755ea029.chunk.css.map": "/web-presentation/static/css/2.755ea029.chunk.css.map",
+    "static/css/main.8ad18a55.chunk.css.map": "/web-presentation/static/css/main.8ad18a55.chunk.css.map",
+    "static/media/Action-Reducer-Visual.gif": "/web-presentation/static/media/Action-Reducer-Visual.cf8965a7.gif",
+    "static/media/Alan-Orange.png": "/web-presentation/static/media/Alan-Orange.bb5dfd51.png",
+    "static/media/Dan-Red.png": "/web-presentation/static/media/Dan-Red.3f034657.png",
+    "static/media/Dennis-Blue.png": "/web-presentation/static/media/Dennis-Blue.025ae12c.png",
+    "static/media/FileNaming.png": "/web-presentation/static/media/FileNaming.ced2091d.png",
+    "static/media/Jordan-Green.png": "/web-presentation/static/media/Jordan-Green.076d24bd.png",
+    "static/media/wowSlide.css": "/web-presentation/static/media/MeerkatCousins.262cbe79.jpg",
+    "static/media/purposeSlide.css": "/web-presentation/static/media/Two-Small-Peaks-Right-Side.2ad81aa1.png",
+    "static/media/React-Revio.svg": "/web-presentation/static/media/React-Revio.d483261f.svg",
+    "static/media/Rev.io_Glyph.svg": "/web-presentation/static/media/Rev.io_Glyph.101fa43b.svg",
+    "static/media/Revio-Logo.png": "/web-presentation/static/media/Revio-Logo.5c3cf611.png",
+    "static/media/titleSlide.css": "/web-presentation/static/media/Title-Right-Side.611ed830.png",
+    "static/media/alan_cartoon_250 round.png": "/web-presentation/static/media/alan_cartoon_250 round.b6276396.png",
+    "static/media/semantic.min.css": "/web-presentation/static/media/outline-icons.ef60a4f6.woff",
+    "static/media/feedbackwelcome.jpg": "/web-presentation/static/media/feedbackwelcome.639bbfc3.jpg",
+    "static/media/gentle-crow-sir.jpg": "/web-presentation/static/media/gentle-crow-sir.194abc0c.jpg"
+  }
+}
