@@ -71,11 +71,11 @@ function Presentation(props) {
       <SmartGoalSlide5 index={10} />
       <SmartGoalSlide6 index={11} />
       <SmartGoalSummarySlide index={12} />
-      <DemoStorybookSlide index={13} />
-      <DemoCPPSlide index={14} />
-      <NamingConventionSlide index={15} />
-      <ActionReducerSlide index={16} />
-      <FunSlide index={17} />
+      <FunSlide index={13} />
+      <DemoStorybookSlide index={14} />
+      <DemoCPPSlide index={15} />
+      <NamingConventionSlide index={16} />
+      <ActionReducerSlide index={17} />
       <KnownRisksSlide index={18} />
       <LessonsSlide index={19} />
       <FeedbackSlide index={20} />

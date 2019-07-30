@@ -69,6 +69,20 @@ path.Revio-logo-swoosh {
   margin-top: 5vh !important;
 }
 
+p.pres {
+  color: #626366;
+  font-size: calc(0.3em + 4.2vh) !important;
+  font-weight: bold !important;
+  padding-left: 10vw !important;
+  margin-top: 5vh !important;
+}
+
+.link-pres {
+  font-size: calc(0.3em + 4.2vh) !important;
+  font-weight: bold !important;
+  margin-top: 5vh !important;
+}
+
 .list-pres {
   color: #626366;
   font-size: calc(0.3em + 4.2vh) !important;

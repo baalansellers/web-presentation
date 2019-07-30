@@ -1,7 +1,8 @@
 import React from "react";
-import haters from "./haters.jpg";
+import feedbackImg from "./feedbackwelcome.jpg";
+import alanImg from "./alan_cartoon_250 round.png";
 import { Slide } from "pure-react-carousel";
-import { Image } from "semantic-ui-react";
+import { Image, Label } from "semantic-ui-react";
 
 function FeedbackSlide(props) {
   return (
@@ -9,7 +10,18 @@ function FeedbackSlide(props) {
       <div className="App">
         <header className="App-header">
           <p>Feedback? | Questions?</p>
-          <Image src={haters} size="large" centered />
+          <Image src={feedbackImg} size="large" centered />
+          <p>
+            <Label
+              as="a"
+              size="big"
+              href="https://github.com/baalansellers/web-presentation"
+              target="_blank"
+            >
+              <Image src={alanImg} spaced="right" />
+              https://github.com/baalansellers/web-presentation
+            </Label>
+          </p>
         </header>
       </div>
     </Slide>

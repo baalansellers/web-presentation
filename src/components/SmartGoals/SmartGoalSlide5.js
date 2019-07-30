@@ -34,6 +34,8 @@ function SmartGoalSlide5(props) {
             </List>
           </List.Item>
         </List>
+        <p className="pres">For more info see: <a class="link-pres" href="https://library.rev.io/display/DEVE/Reseller+Design" target="_blank">Reseller Design</a></p>
+        
         <FlippyGlyph />
       </div>
     </Slide>

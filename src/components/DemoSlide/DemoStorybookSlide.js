@@ -46,7 +46,7 @@ function DemoStorybookSlide(props) {
 
         <Embed
           active={isActive}
-          url="http://localhost:54900/"
+          url="http://192.168.1.192:54900/"
           iframe={{ scrolling: "yes", class: "embed-iframe" }}
           onClick={handleStopClick}
         />
