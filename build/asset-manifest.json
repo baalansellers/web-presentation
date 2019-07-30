@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b928179c.chunk.css",
+    "main.js": "/static/js/main.e8d1c683.chunk.js",
+    "main.js.map": "/static/js/main.e8d1c683.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/css/2.2811b790.chunk.css": "/static/css/2.2811b790.chunk.css",
+    "static/js/2.4c1eb2dc.chunk.js": "/static/js/2.4c1eb2dc.chunk.js",
+    "static/js/2.4c1eb2dc.chunk.js.map": "/static/js/2.4c1eb2dc.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.70d8d93235a5fd09c5d4904f9c595c24.js": "/precache-manifest.70d8d93235a5fd09c5d4904f9c595c24.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.2811b790.chunk.css.map": "/static/css/2.2811b790.chunk.css.map",
+    "static/css/main.b928179c.chunk.css.map": "/static/css/main.b928179c.chunk.css.map",
+    "static/media/Action-Reducer-Visual.gif": "/static/media/Action-Reducer-Visual.cf8965a7.gif",
+    "static/media/Alan-Orange.png": "/static/media/Alan-Orange.bb5dfd51.png",
+    "static/media/Dan-Red.png": "/static/media/Dan-Red.3f034657.png",
+    "static/media/Dennis-Blue.png": "/static/media/Dennis-Blue.025ae12c.png",
+    "static/media/FileNaming.png": "/static/media/FileNaming.ced2091d.png",
+    "static/media/Jordan-Green.png": "/static/media/Jordan-Green.076d24bd.png",
+    "static/media/wowSlide.css": "/static/media/MeerkatCousins.262cbe79.jpg",
+    "static/media/purposeSlide.css": "/static/media/Two-Small-Peaks-Right-Side.2ad81aa1.png",
+    "static/media/React-Revio.svg": "/static/media/React-Revio.d483261f.svg",
+    "static/media/Rev.io_Glyph.svg": "/static/media/Rev.io_Glyph.101fa43b.svg",
+    "static/media/Revio-Logo.png": "/static/media/Revio-Logo.5c3cf611.png",
+    "static/media/titleSlide.css": "/static/media/Title-Right-Side.611ed830.png",
+    "static/media/alan_cartoon_250 round.png": "/static/media/alan_cartoon_250 round.b6276396.png",
+    "static/media/semantic.min.css": "/static/media/outline-icons.ef60a4f6.woff",
+    "static/media/feedbackwelcome.jpg": "/static/media/feedbackwelcome.639bbfc3.jpg",
+    "static/media/gentle-crow-sir.jpg": "/static/media/gentle-crow-sir.194abc0c.jpg"
+  }
+}
